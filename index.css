@@ -1,0 +1,38 @@
+a{
+    color:grey;
+}
+a:active, a:hover{
+    color:grey;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    background-color:darkgrey;
+    color:white;
+}
+.nav-pills{
+    font-size:0.8em;
+}
+.postbar{
+    display:flex;
+    justify-content: start;
+}
+.interactivebar{
+    display:flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+.leftbar{
+    justify-content: start;
+}
+input{
+    border-color: lightgrey;
+    border-radius: 10px;
+    width: 100%;
+}
+.img{
+    width:100%;
+    height:500px;
+    object-fit:cover;
+    padding: 15px;
+}
+
+
